@@ -159,6 +159,11 @@ namespace WFA
 
         }
 
+        private void txtScore_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void KeyIsDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Left)

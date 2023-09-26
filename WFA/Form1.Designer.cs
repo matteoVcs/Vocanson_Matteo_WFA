@@ -144,6 +144,7 @@
             this.txtScore.Tag = "txtScore";
             this.txtScore.Text = "score";
             this.txtScore.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.txtScore.Click += new System.EventHandler(this.txtScore_Click);
             // 
             // platform
             // 
@@ -716,6 +717,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.platform);
             this.Controls.Add(this.txtScore);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form1";
             this.Text = "window";
             this.Load += new System.EventHandler(this.Form1_Load);
