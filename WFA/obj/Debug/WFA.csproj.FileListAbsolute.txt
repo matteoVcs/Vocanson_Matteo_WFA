@@ -8,3 +8,13 @@ C:\Users\TcT_g\source\repos\Vocanson_Matteo_WFA\WFA\obj\Debug\WFA.csproj.CoreCom
 C:\Users\TcT_g\source\repos\Vocanson_Matteo_WFA\WFA\obj\Debug\WFA.exe
 C:\Users\TcT_g\source\repos\Vocanson_Matteo_WFA\WFA\obj\Debug\WFA.pdb
 C:\Users\TcT_g\source\repos\Vocanson_Matteo_WFA\WFA\obj\Debug\WFA.Form1.resources
+C:\Users\TcT_g\Desktop\Vocanson_Matteo_WFA\WFA\bin\Debug\WFA.exe.config
+C:\Users\TcT_g\Desktop\Vocanson_Matteo_WFA\WFA\bin\Debug\WFA.exe
+C:\Users\TcT_g\Desktop\Vocanson_Matteo_WFA\WFA\bin\Debug\WFA.pdb
+C:\Users\TcT_g\Desktop\Vocanson_Matteo_WFA\WFA\obj\Debug\WFA.csproj.AssemblyReference.cache
+C:\Users\TcT_g\Desktop\Vocanson_Matteo_WFA\WFA\obj\Debug\WFA.Form1.resources
+C:\Users\TcT_g\Desktop\Vocanson_Matteo_WFA\WFA\obj\Debug\WFA.Properties.Resources.resources
+C:\Users\TcT_g\Desktop\Vocanson_Matteo_WFA\WFA\obj\Debug\WFA.csproj.GenerateResource.cache
+C:\Users\TcT_g\Desktop\Vocanson_Matteo_WFA\WFA\obj\Debug\WFA.csproj.CoreCompileInputs.cache
+C:\Users\TcT_g\Desktop\Vocanson_Matteo_WFA\WFA\obj\Debug\WFA.exe
+C:\Users\TcT_g\Desktop\Vocanson_Matteo_WFA\WFA\obj\Debug\WFA.pdb
