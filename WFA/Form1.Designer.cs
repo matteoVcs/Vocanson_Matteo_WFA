@@ -42,7 +42,6 @@
             this.enemy1 = new System.Windows.Forms.PictureBox();
             this.door = new System.Windows.Forms.PictureBox();
             this.enemy2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
@@ -81,6 +80,11 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox47 = new System.Windows.Forms.PictureBox();
             this.fireball1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
+            this.pictureBox43 = new System.Windows.Forms.PictureBox();
+            this.pictureBox45 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.platform)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -93,7 +97,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.enemy1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.door)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemy2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
@@ -130,6 +133,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fireball1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).BeginInit();
             this.SuspendLayout();
             // 
             // txtScore
@@ -227,7 +235,6 @@
             // 
             this.player.BackColor = System.Drawing.Color.Navy;
             this.player.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.player.Image = global::WFA.Properties.Resources.rn_image_picker_lib_temp_38a71bf8_fc28_4644_a527_5d62402f35dd;
             this.player.Location = new System.Drawing.Point(130, 630);
             this.player.Name = "player";
             this.player.Size = new System.Drawing.Size(27, 40);
@@ -266,20 +273,10 @@
             this.enemy2.TabStop = false;
             this.enemy2.Tag = "enemy";
             // 
-            // pictureBox9
-            // 
-            this.pictureBox9.BackColor = System.Drawing.Color.Gold;
-            this.pictureBox9.Location = new System.Drawing.Point(387, 110);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(25, 25);
-            this.pictureBox9.TabIndex = 15;
-            this.pictureBox9.TabStop = false;
-            this.pictureBox9.Tag = "coin";
-            // 
             // pictureBox13
             // 
             this.pictureBox13.BackColor = System.Drawing.Color.Gold;
-            this.pictureBox13.Location = new System.Drawing.Point(612, 110);
+            this.pictureBox13.Location = new System.Drawing.Point(466, 262);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(25, 25);
             this.pictureBox13.TabIndex = 19;
@@ -289,7 +286,7 @@
             // pictureBox14
             // 
             this.pictureBox14.BackColor = System.Drawing.Color.Gold;
-            this.pictureBox14.Location = new System.Drawing.Point(564, 110);
+            this.pictureBox14.Location = new System.Drawing.Point(565, 85);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(25, 25);
             this.pictureBox14.TabIndex = 20;
@@ -299,7 +296,7 @@
             // pictureBox15
             // 
             this.pictureBox15.BackColor = System.Drawing.Color.Gold;
-            this.pictureBox15.Location = new System.Drawing.Point(519, 110);
+            this.pictureBox15.Location = new System.Drawing.Point(517, 241);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(25, 25);
             this.pictureBox15.TabIndex = 21;
@@ -309,7 +306,7 @@
             // pictureBox16
             // 
             this.pictureBox16.BackColor = System.Drawing.Color.Gold;
-            this.pictureBox16.Location = new System.Drawing.Point(477, 110);
+            this.pictureBox16.Location = new System.Drawing.Point(477, 133);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(25, 25);
             this.pictureBox16.TabIndex = 22;
@@ -319,7 +316,7 @@
             // pictureBox17
             // 
             this.pictureBox17.BackColor = System.Drawing.Color.Gold;
-            this.pictureBox17.Location = new System.Drawing.Point(430, 110);
+            this.pictureBox17.Location = new System.Drawing.Point(432, 191);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(25, 25);
             this.pictureBox17.TabIndex = 23;
@@ -415,7 +412,7 @@
             // pictureBox25
             // 
             this.pictureBox25.BackColor = System.Drawing.Color.Gold;
-            this.pictureBox25.Location = new System.Drawing.Point(304, 518);
+            this.pictureBox25.Location = new System.Drawing.Point(406, 516);
             this.pictureBox25.Name = "pictureBox25";
             this.pictureBox25.Size = new System.Drawing.Size(25, 25);
             this.pictureBox25.TabIndex = 33;
@@ -650,11 +647,66 @@
             this.fireball1.TabStop = false;
             this.fireball1.Visible = false;
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Gold;
+            this.pictureBox4.Location = new System.Drawing.Point(234, 486);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox4.TabIndex = 64;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Tag = "coin";
+            // 
+            // pictureBox21
+            // 
+            this.pictureBox21.BackColor = System.Drawing.Color.Gold;
+            this.pictureBox21.Location = new System.Drawing.Point(281, 486);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox21.TabIndex = 63;
+            this.pictureBox21.TabStop = false;
+            this.pictureBox21.Tag = "coin";
+            // 
+            // pictureBox24
+            // 
+            this.pictureBox24.BackColor = System.Drawing.Color.Gold;
+            this.pictureBox24.Location = new System.Drawing.Point(323, 486);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox24.TabIndex = 62;
+            this.pictureBox24.TabStop = false;
+            this.pictureBox24.Tag = "coin";
+            // 
+            // pictureBox43
+            // 
+            this.pictureBox43.BackColor = System.Drawing.Color.Gold;
+            this.pictureBox43.Location = new System.Drawing.Point(368, 486);
+            this.pictureBox43.Name = "pictureBox43";
+            this.pictureBox43.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox43.TabIndex = 61;
+            this.pictureBox43.TabStop = false;
+            this.pictureBox43.Tag = "coin";
+            // 
+            // pictureBox45
+            // 
+            this.pictureBox45.BackColor = System.Drawing.Color.Gold;
+            this.pictureBox45.Location = new System.Drawing.Point(191, 486);
+            this.pictureBox45.Name = "pictureBox45";
+            this.pictureBox45.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox45.TabIndex = 60;
+            this.pictureBox45.TabStop = false;
+            this.pictureBox45.Tag = "coin";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(668, 782);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox21);
+            this.Controls.Add(this.pictureBox24);
+            this.Controls.Add(this.pictureBox43);
+            this.Controls.Add(this.pictureBox45);
             this.Controls.Add(this.fireball1);
             this.Controls.Add(this.pictureBox47);
             this.Controls.Add(this.pictureBox1);
@@ -691,7 +743,6 @@
             this.Controls.Add(this.pictureBox15);
             this.Controls.Add(this.pictureBox14);
             this.Controls.Add(this.pictureBox13);
-            this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.enemy2);
             this.Controls.Add(this.door);
             this.Controls.Add(this.enemy1);
@@ -709,6 +760,7 @@
             this.Name = "Form1";
             this.ShowInTaskbar = false;
             this.Text = "window";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyIsDown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.KeyIsUp);
@@ -724,7 +776,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.enemy1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.door)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemy2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
@@ -761,6 +812,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fireball1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -780,7 +836,6 @@
         private System.Windows.Forms.PictureBox enemy1;
         private System.Windows.Forms.PictureBox door;
         private System.Windows.Forms.PictureBox enemy2;
-        private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.PictureBox pictureBox13;
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.PictureBox pictureBox15;
@@ -819,6 +874,11 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox47;
         private System.Windows.Forms.PictureBox fireball1;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox21;
+        private System.Windows.Forms.PictureBox pictureBox24;
+        private System.Windows.Forms.PictureBox pictureBox43;
+        private System.Windows.Forms.PictureBox pictureBox45;
     }
 }
 

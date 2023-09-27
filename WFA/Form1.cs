@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,10 +26,13 @@ namespace WFA
         int enemy1Speed = 5;
         int enemy2Speed = 3;
         string facing = "right";
+        private readonly SoundPlayer mainMusic;
 
         public Form1()
         {
             InitializeComponent();
+            mainMusic = new SoundPlayer(Properties.Resources.main);
+            mainMusic.PlayLooping();
         }
 
         private void MainGameTickEvt(object sender, EventArgs e)
@@ -160,9 +164,12 @@ namespace WFA
                                 x.Tag = "";
                             } else
                             {*/
-                                gameTimer.Stop();
-                                isGameOver = true;
-                                txtScore.Text = "Score: " + score + Environment.NewLine + "you die L";
+                            gameTimer.Stop();
+                            isGameOver = true;
+                            txtScore.Text = "you lose, your score is: " + score;
+                            this.Hide();
+                            lose lose = new lose(txtScore.Text);
+                            lose.Show();
                             //}
                         }
                     }
@@ -193,13 +200,19 @@ namespace WFA
             {
                 gameTimer.Stop();
                 isGameOver = true;
-                txtScore.Text = "Score: " + score + Environment.NewLine + "you fell L";
+                txtScore.Text = "you fell to your death, your score is: " + score;
+                this.Hide();
+                lose lose = new lose(txtScore.Text);
+                lose.Show();
             }
             if (player.Bounds.IntersectsWith(door.Bounds) && score >= 26)
             {
                 gameTimer.Stop();
                 isGameOver = true;
-                txtScore.Text = "Score: " + score + Environment.NewLine + "you win";
+                txtScore.Text = "you Win, your score is: " + score;
+                this.Hide();
+                win win = new win(txtScore.Text);
+                win.Show();
             } else
             {
                 txtScore.Text = "Score: " + score + Environment.NewLine + "Collect all the coin";
@@ -239,6 +252,11 @@ namespace WFA
         private void pictureBox26_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
 
         private void Form1_Load(object sender, EventArgs e)

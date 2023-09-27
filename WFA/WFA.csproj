@@ -52,10 +52,34 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="lose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lose.Designer.cs">
+      <DependentUpon>lose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.Designer.cs">
+      <DependentUpon>menu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="win.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="win.Designer.cs">
+      <DependentUpon>win.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lose.resx">
+      <DependentUpon>lose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -67,6 +91,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="win.resx">
+      <DependentUpon>win.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -85,6 +112,51 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\meme-cat.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cirno-Fortress-Stage-2-_Stage-36b_-_2A03_-FamiTracker_.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wii Music - Gaming Background Music %28HD%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onlymp3.to-Wii-Music-Gaming-Background-Music-HD-x2NzoLMWAwQ-192k-1695822352.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Better Call Saul Intro Theme - 8-Bit Remix.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Better-Call-Saul-Intro-Theme-8-Bit-Remix.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Final-Fantasy-IV-Victory-Music-_8-bit-Version_.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chitauri-Energy-Launcher-Projectile-Flyby-_Nr.-4-Fortnite-Sound_-Sound-Effect-for-editing.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NormalGate.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundGame.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ruined City Background Preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loseBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\winBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1PvN.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coin.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
