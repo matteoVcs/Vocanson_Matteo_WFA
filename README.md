@@ -2,9 +2,9 @@
 ### Qu'est-ce que c'est ?
 Le projet WFA est un projet de 2e année consistant à créer un jeu en c# avec le framework WPF pour apprendre les bases du game programming.
 ### Touches ?
-Aller a droite : D ou flèche droite
-Aller a gauche : Q ou flèche gauche
-Sauter : Espace
+Aller a droite : D ou flèche droite\
+Aller a gauche : Q ou flèche gauche\
+Sauter : Espace\
 Tirer : F
 ## organisation du projet
 #### Mercredi 20 septembre:

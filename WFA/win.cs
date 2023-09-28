@@ -53,5 +53,10 @@ namespace WFA
         {
             Application.Exit();
         }
+
+        private void win_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -111,6 +111,12 @@ namespace WFA
                     }
                     if ((string)x.Tag == "platformS")
                     {
+                        if (fireball1.Bounds.IntersectsWith(x.Bounds) && fireball1.Visible)
+                        {
+                            fireball1.Visible = false;
+                            fireball1Visible = false;
+                            fireball = 1;
+                        }
                         if (player.Bounds.IntersectsWith(x.Bounds))
                         {
                             if (x.Bounds.Y <= player.Bounds.Y && player.Bounds.X + player.Width >= x.Bounds.X + 8 && player.Bounds.X <= x.Bounds.X + x.Width - 8)
@@ -205,7 +211,7 @@ namespace WFA
                 lose lose = new lose(txtScore.Text);
                 lose.Show();
             }
-            if (player.Bounds.IntersectsWith(door.Bounds) && score >= 26)
+            if (player.Bounds.IntersectsWith(door.Bounds) && score >= 38)
             {
                 gameTimer.Stop();
                 isGameOver = true;
@@ -215,7 +221,7 @@ namespace WFA
                 win.Show();
             } else
             {
-                txtScore.Text = "Score: " + score + Environment.NewLine + "Collect all the coin";
+                txtScore.Text = "Score: " + score + Environment.NewLine + "Collect all the coin and enter the gate to win";
             }
             if (fireball == 1)
             {
@@ -298,11 +304,11 @@ namespace WFA
 
         private void KeyIsUp(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Left)
+            if (e.KeyCode == Keys.Left || e.KeyCode == Keys.Q)
             {
                 goLeft = false;
             }
-            if (e.KeyCode == Keys.Right)
+            if (e.KeyCode == Keys.Right || e.KeyCode == Keys.D)
             {
                 goRight = false;
             }
@@ -310,10 +316,6 @@ namespace WFA
             {
                 jumping = false;
                 force = 0;
-            }
-            if (e.KeyCode == Keys.Enter && isGameOver)
-            {
-               RestartGame();
             } 
         }
 
