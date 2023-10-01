@@ -118,40 +118,46 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\background.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="backgroundGame" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\backgroundGame.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="coin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\coin.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="fire" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Chitauri-Energy-Launcher-Projectile-Flyby-_Nr.-4-Fortnite-Sound_-Sound-Effect-for-editing.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Gate" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\NormalGate.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lose" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Better-Call-Saul-Intro-Theme-8-Bit-Remix.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="loseBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\loseBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="main" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cirno-Fortress-Stage-2-_Stage-36b_-_2A03_-FamiTracker_.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="player" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1PvN.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="coin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coin1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="wii" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\onlymp3.to-Wii-Music-Gaming-Background-Music-HD-x2NzoLMWAwQ-192k-1695822352.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="honey_block_side" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\honey_block_side.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wood.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="winBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\winBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dirt2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dirt3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="win" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Final-Fantasy-IV-Victory-Music-_8-bit-Version_.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="winBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\winBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="loseBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loseBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lose" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Better-Call-Saul-Intro-Theme-8-Bit-Remix.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wii" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\onlymp3.to-Wii-Music-Gaming-Background-Music-HD-x2NzoLMWAwQ-192k-1695822352.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Gate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NormalGate.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fireball" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fireball.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

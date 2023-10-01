@@ -73,9 +73,9 @@ namespace WFA.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap backgroundGame {
+        internal static System.Drawing.Bitmap coin {
             get {
-                object obj = ResourceManager.GetObject("backgroundGame", resourceCulture);
+                object obj = ResourceManager.GetObject("coin", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace WFA.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap coin {
+        internal static System.Drawing.Bitmap dirt2 {
             get {
-                object obj = ResourceManager.GetObject("coin", resourceCulture);
+                object obj = ResourceManager.GetObject("dirt2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -102,9 +102,29 @@ namespace WFA.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fireball {
+            get {
+                object obj = ResourceManager.GetObject("fireball", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Gate {
             get {
                 object obj = ResourceManager.GetObject("Gate", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap honey_block_side {
+            get {
+                object obj = ResourceManager.GetObject("honey_block_side", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -138,16 +158,6 @@ namespace WFA.Properties {
         }
         
         /// <summary>
-        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap player {
-            get {
-                object obj = ResourceManager.GetObject("player", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
         ///   Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream wii {
@@ -171,6 +181,16 @@ namespace WFA.Properties {
         internal static System.Drawing.Bitmap winBackground {
             get {
                 object obj = ResourceManager.GetObject("winBackground", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wood {
+            get {
+                object obj = ResourceManager.GetObject("wood", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -17,3 +17,9 @@ Tirer : F
 - j'ai amélioré les collisions en faisant un sorte que le personnage ne tremble pas quand il touche une plateforme, j'ai aussi implémenté une platforme ou on s'agripe en la touchant
 #### Mardi 26 septembre:
 - j'ai ajouter une platforme qui bouge de haut en bas et qui rétrécis/s'agrandis en bougeant, j'ai aussi implémenté un sysème de tir fonctionnel pour le personnage (le tir disparait quand il touche un ennemi ou une plateforme)
+#### Mercredi 27 septembre:
+- j'ai fait le readme, j'ai aussi rajouter des forms (un menu de départ, une fenêtre de défaite et une de victoire) et j'ai rajouter des sons pour le menu de départ et la victoire
+#### Jeudi 28 septembre:
+- oral de projet
+#### dimanche 01 octobre:
+- j'ai corrigé le bug qui permettais au personnage de sauté dans les airs, ajouter des textures et fini le readme (y'a pas toutes les textures j'ai la flemme de les mettre)

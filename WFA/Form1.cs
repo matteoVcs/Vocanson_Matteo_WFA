@@ -231,12 +231,12 @@ namespace WFA
                 if (facing == "right")
                 {
                     fireball1.Left = player.Left+ player.Width;
-                    fireball1.Top = player.Top + player.Height / 2;
+                    fireball1.Top = player.Top;
                 }
                 else
                 {
                     fireball1.Left = player.Left - fireball1.Width;
-                    fireball1.Top = player.Top + player.Height / 2;
+                    fireball1.Top = player.Top;
                 }
             }
             if (fireball == 0)
@@ -259,6 +259,16 @@ namespace WFA
         }
 
         private void pictureBox26_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox28_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox27_Click(object sender, EventArgs e)
         {
 
         }

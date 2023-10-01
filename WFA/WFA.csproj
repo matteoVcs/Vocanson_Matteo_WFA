@@ -158,5 +158,38 @@
   <ItemGroup>
     <None Include="Resources\coin.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dirt1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dirt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dirt2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dirt3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\honey_block_side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coin1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\output-onlinegiftools.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fireball.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fireball1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fireball.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
