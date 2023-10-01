@@ -14,7 +14,7 @@ namespace WFA
 {
     public partial class Form1 : Form
     {
-        bool goLeft, goRight, jumping, isSticky, isGameOver;
+        bool goLeft, goRight, jumping, canJump, isSticky, isGameOver;
         int jumpspeed;
         int force;
         int fireball = 1;
@@ -59,6 +59,7 @@ namespace WFA
             } else
             {
                 jumpspeed = 10;
+                canJump = false;
             }
             if (fireball1Visible)
                 fireball1.Visible = true;
@@ -97,6 +98,7 @@ namespace WFA
                                     jumpspeed = 0;
                                 else jumpspeed = -10;
                                 player.Top = x.Top - player.Height+1;
+                                canJump = true;
                             }
                             else if (x.Bounds.X >= player.Bounds.X - player.Width && player.Bounds.X - player.Width <= x.Bounds.X- 8)
                             {
@@ -132,6 +134,7 @@ namespace WFA
                                     jumpspeed = 0;
                                 else jumpspeed = -10;
                                 player.Top = x.Top - player.Height + 1;
+                                canJump = true;
                             }
                             else if (x.Bounds.X >= player.Bounds.X - player.Width && player.Bounds.X - player.Width <= x.Bounds.X - 8)
                             {
@@ -290,7 +293,7 @@ namespace WFA
                 player.Top += 10;
                 isSticky = false;
             }
-            else if (e.KeyCode == Keys.Space && jumping == false)
+            else if (e.KeyCode == Keys.Space && !jumping && canJump)
             {
                 jumping = true;
             }
@@ -314,6 +317,7 @@ namespace WFA
             }
             if (jumping == true)
             {
+                canJump = false;
                 jumping = false;
                 force = 0;
             } 
@@ -325,6 +329,7 @@ namespace WFA
             goRight = false;
             jumping = false;
             isGameOver = false;
+            canJump = true;
             score = 0;
             txtScore.Text = "Score:" + score;
 
